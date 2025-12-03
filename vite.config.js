@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-
 export default defineConfig({
-plugins: [react()],
-base: '/data-dictionary-graph-demo/'
+  plugins: [react()],
+  base: './', // relative paths for GitHub Pages
 })
